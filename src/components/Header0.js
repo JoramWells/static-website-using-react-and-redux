@@ -2,6 +2,8 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import child from './child.jpg'
 import child3 from './child3.jpg'
+import jpc from './jpc.jpg'
+import meeting1 from './meeting1.jpg'
 
 export default function Header0() {
   return (
@@ -10,7 +12,7 @@ export default function Header0() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={child}
+            src={jpc}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -21,8 +23,10 @@ export default function Header0() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={child3}
+            src={meeting1}
             alt="Second slide"
+            style={{opacity:0.7}}
+
           />
 
           <Carousel.Caption>

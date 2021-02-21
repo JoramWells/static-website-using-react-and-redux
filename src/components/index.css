@@ -49,6 +49,9 @@
       font-weight: 2rem;
 
   }
+  .header{
+      background-color: teal;
+  }
 
 .toggle{
     position: absolute;
@@ -90,3 +93,32 @@
     background-color: rgb(6, 78, 78);
 
 } */
+
+.footer{
+    background-color: #7cd199;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer img{
+    border-radius: 50px;
+}
+.footer ul{
+    list-style: none;
+}
+
+.divFooter{
+    background-color: #18a347;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.contribution{
+    background-color: grey;
+    padding: 20px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight:18px;
+}

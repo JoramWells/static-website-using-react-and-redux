@@ -6,11 +6,12 @@ export default function Header (){
     return(
 
         <div className="nv">
-                        <h1 >Justice and Peace Center</h1>
+            {/* <div className="header">
+            <h1 >Justice and Peace Center</h1>
 
-            <div className="col-sm-12">
-            <hr />
-            </div>
+            </div> */}
+
+
 
             <nav className="navbar1">
                 <div className="brand">

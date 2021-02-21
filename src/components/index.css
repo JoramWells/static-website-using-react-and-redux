@@ -3,7 +3,7 @@
     padding: 5px;
     width: 100%;
     top: 0;
-    background-color: #24bb56;
+    background-color: #59e688;
     z-index: 1;
 
   }
@@ -20,8 +20,15 @@
   }
 
   .brand{
-      font-size: 1.5rem;
-      margin: .2rem;
+
+  }
+
+
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .navl ul{
@@ -39,6 +46,8 @@
       color: white;
       padding: .5rem;
       display: block;
+      font-weight: 2rem;
+
   }
 
 .toggle{
@@ -70,6 +79,7 @@
 }
 
 .btnL li{
+    /* background-image: linear-gradient(to right,teal, #59e688); */
     border-radius: 50px;
     margin: .5rem;
     

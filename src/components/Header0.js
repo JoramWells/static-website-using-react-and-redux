@@ -5,7 +5,7 @@ import child3 from './child3.jpg'
 
 export default function Header0() {
   return (
-    <div style={{zIndex:"-1", marginTop:"50px"}} className="mt-5">
+    <div style={{zIndex:"-1"}}>
       <Carousel fade>
         <Carousel.Item>
           <img

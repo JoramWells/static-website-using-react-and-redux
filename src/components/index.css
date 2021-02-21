@@ -3,7 +3,7 @@
     padding: 5px;
     width: 100%;
     top: 0;
-    background-color: #333;
+    background-color: #24bb56;
     z-index: 1;
 
   }
@@ -70,7 +70,6 @@
 }
 
 .btnL li{
-    background-image: linear-gradient(to right, rgb(4, 87, 87) , teal);
     border-radius: 50px;
     margin: .5rem;
     

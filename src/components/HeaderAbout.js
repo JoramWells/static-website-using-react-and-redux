@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
+import Card from 'react-bootstrap/Card'
+import CardDeck from 'react-bootstrap/CardDeck'
+import child from './child.jpg'
+import child3 from './child3.jpg'
 
 export default function HeaderAbout () {
     return (
@@ -15,6 +17,19 @@ export default function HeaderAbout () {
               <li>Resolved Civil cases through ADR mechanisms</li>
 
           </ol>
+
+          <h2 style={{textAlign:"center"}}>Recent Activities</h2>
+          <CardDeck>
+              <Card>
+                  <Card.Img variant="top" src={child}></Card.Img>
+              </Card>
+              <Card>
+                  <Card.Img variant="top" src={child3}></Card.Img>
+              </Card>
+              <Card>
+              <Card.Img variant="top" src={child}></Card.Img>
+              </Card>
+          </CardDeck>
 
 
 

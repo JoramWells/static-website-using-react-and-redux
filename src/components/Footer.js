@@ -12,11 +12,11 @@ export default function Footer() {
         <Container fluid>
           <Row>
             <Col>
-              <img
+              {/* <img
                 src={logo}
                 alt="Justice and peace center logo"
                 style={{ width: "70px", height: "70px" }}
-              />
+              /> */}
             </Col>
             <Col>
               <h4>Regions</h4>

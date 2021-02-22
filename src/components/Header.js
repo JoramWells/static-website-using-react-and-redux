@@ -10,28 +10,30 @@ import './index.css'
 export default function Header (){
     return(
 
-<Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" style={{backgroundColor: "#18a347", color:"white"}}>
+<Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" style={{backgroundColor: "hsla(163, 59%, 40%, 1)", color:"white"}}>
   <Navbar.Brand href="#home">
       {/* <img src={logo} alt="jpc-logo" style={{height:"60px", width:"60px", borderRadius:"50px"}} /> */}
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+      <Nav.Link href="#features" style={{color:"white"}}>JUSTICE & PEACE CENTER</Nav.Link>
+
+    </Nav>
+    <Nav>
+      <Nav.Link href="#home"  style={{color:"white"}}>HOME</Nav.Link>
+      <Nav.Link href="#about"  style={{color:"white"}}>ABOUT US</Nav.Link>
+      <NavDropdown title="WHERE WE WORK" id="collasible-nav-dropdown" style={{color:"white"}}>
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown>
-    </Nav>
-    <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
+      <Nav.Link href="#deets"  style={{color:"white"}}>WHAT WE DO</Nav.Link>
+      <Nav.Link href="#deets"  style={{color:"white"}}>CONTACT US</Nav.Link>
+
+
     </Nav>
   </Navbar.Collapse>
 </Navbar>

@@ -101,9 +101,8 @@ small{
 } */
 
 .footer{
-    background-color: #7cd199;
+    background-color: hsla(163, 60%, 60%, 0.9);
     padding-top: 20px;
-    text-align: center;
     color: white;
 }
 
@@ -115,15 +114,29 @@ small{
 }
 
 .divFooter{
-    background-color: #18a347;
+    background-color: hsla(163, 59%, 40%, 0.9);
     margin-top: 20px;
-    padding: 20px;
+    padding: 5px;
     color: white;
+}
+p{
+    font-size: 18px;
+}
+ul, ol{
+    font-size: 18px;
+}
+
+.section img{
+    filter: grayscale(100%);
+}
+
+.section img:hover{
+    filter: grayscale(0%);
 }
 
 .contribution{
     background-color: grey;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 50px;
     color: white;
     font-weight:18px;

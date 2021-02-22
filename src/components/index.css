@@ -126,12 +126,10 @@ ul, ol{
     font-size: 18px;
 }
 
-.section img{
-    filter: grayscale(100%);
-}
+
 
 .section img:hover{
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 
 .contribution{

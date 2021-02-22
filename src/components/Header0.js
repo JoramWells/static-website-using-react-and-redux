@@ -11,7 +11,7 @@ export default function Header0() {
       <Carousel fade>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 h-75"
             src={jpc}
             alt="First slide"
           />
@@ -22,10 +22,10 @@ export default function Header0() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 h-75"
             src={meeting1}
             alt="Second slide"
-            style={{opacity:0.7}}
+            
 
           />
 
@@ -36,7 +36,7 @@ export default function Header0() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 h-75"
             src={child}
             alt="Third slide"
           />

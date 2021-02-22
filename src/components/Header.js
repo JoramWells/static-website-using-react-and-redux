@@ -1,40 +1,40 @@
 import React from 'react'
-import './index.css'
 import logo from './logo.png'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import './index.css'
+
+
 
 export default function Header (){
     return(
 
-        <div className="nv">
-            {/* <div className="header">
-            <h1 >Justice and Peace Center</h1>
-
-            </div> */}
-
-
-
-            <nav className="navbar1">
-                <div className="brand">
-                    <img src={logo} alt="Justice and Peace Center logo" style={{width:"70px", height:"70px", borderRadius:"90px"}} />
-                </div>
-                <a href="#" className="toggle">
-                    <span className="bar"></span>
-                    <span className="bar"></span>
-                    <span className="bar"></span>
-                </a>
-
-                <div className="navl">
-                    <ul>
-                         <div className="btnL" ><li><a href="#home">Home</a> </li></div>
-                         <div className="btnL" ><li><a href="#Location">Location</a> </li></div> 
-                         <div className="btnL" ><li><a href="#Donation">Donation</a> </li></div> 
-                         <div className="btnL" ><li><a href="#Work">Work</a> </li></div> 
-
-
-                    </ul>
-                </div>
-            </nav>
-        </div>
+<Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" style={{backgroundColor: "#18a347", color:"white"}}>
+  <Navbar.Brand href="#home">
+      {/* <img src={logo} alt="jpc-logo" style={{height:"60px", width:"60px", borderRadius:"50px"}} /> */}
+  </Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link href="#features">Features</Nav.Link>
+      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+      </NavDropdown>
+    </Nav>
+    <Nav>
+      <Nav.Link href="#deets">More deets</Nav.Link>
+      <Nav.Link eventKey={2} href="#memes">
+        Dank memes
+      </Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
         
 
     );

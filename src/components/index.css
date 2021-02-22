@@ -5,13 +5,19 @@
     top: 0;
     background-color: #59e688;
     z-index: 1;
+    position: relative;
 
+  }
+  h4{
+      color: #85e085;
   }
   .nv h1{
       text-align: center;
       color: white;
   }
-
+small{
+    color: grey;
+}
 
   .navbar1{
       display: flex;

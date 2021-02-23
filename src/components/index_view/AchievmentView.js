@@ -1,20 +1,20 @@
 import React from "react";
 import ReactPlayer from "react-player/lazy";
-import Container from "react-bootstrap/esm/Container";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+
 
 export default function AchievmentView() {
   return (
-    <Container>
+    <Container fluid>
           <div style={{ padding: "5px" }} className=" mt-4">
-      <h1 style={{ textAlign: "center", color: "#00284d" }}>Achievements</h1>
-      <div className="container"><hr />
-      </div>
-
-      <div className="row">
-        <div className="col-sm-2"></div>
-
-        <div className="col-sm-10">
-          <ol>
+      <h1>Achievements</h1>
+      <Container><hr /></Container>
+      <Row>
+        <Col xs={2}></Col>
+        <Col>
+        <ol>
             <li>
               Successfully conducted social audit exercise for CDF funds in
               Pokot and Trans-Nzoia Counties
@@ -24,11 +24,12 @@ export default function AchievmentView() {
             <li>Established child Human Rights clubs in schools</li>
             <li>Resolved Civil cases through ADR mechanisms</li>
           </ol>
-        </div>
-        <div className="col-sm-2"></div>
-      </div>
+        </Col>
+        <Col xs={2}></Col>
 
-      <div style={{ margin: "auto", display: "block" }} className="col-sm-8">
+      </Row>
+
+      <div className="col-sm-8 divCenter">
         <ReactPlayer
           width ="auto"
           className="ml-auto mr-auto"

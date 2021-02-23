@@ -1,0 +1,19 @@
+p, ol{
+    font-size: 18px;
+}
+@media (min-width:360px){
+    .mediaVideo{
+        height: 100px;
+        display:"none"
+    }
+}
+h1{
+    color: #00284d;
+    text-align: center;
+}
+
+
+.divCenter{
+    margin:auto;
+    display: block;
+}

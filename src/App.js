@@ -1,4 +1,3 @@
-import "./App.css";
 import Footer from "./components/index_view/Footer";
 import Header from "./components/index_view/Header";
 import CarouselView from "./components/index_view/CarouselView";

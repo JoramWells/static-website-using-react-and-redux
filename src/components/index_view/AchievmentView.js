@@ -11,7 +11,7 @@ export default function AchievmentView() {
       <h1>Achievements</h1>
       <Container><hr /></Container>
       <Row>
-        <Col className="divCenter" xs={8}>
+        <Col className="divCenter" md={8}>
         <ol>
             <li>
               Successfully conducted social audit exercise for CDF funds in

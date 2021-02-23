@@ -5,10 +5,12 @@ import justice3 from "./img/justice3.jpg";
 import women from "./img/women.jpg";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Media from 'react-bootstrap/Media'
+import Container from "react-bootstrap/Container";
 
 export default function TrendingViews() {
   return (
-    <div className="col-sm-10 mt-5 mb-5 mr-auto mx-auto">
+    <Container fluid className="divCenter mt-5 mb-5">
       <h1>Trending</h1>
       <div className="section ">
         <hr />
@@ -38,6 +40,8 @@ export default function TrendingViews() {
           </Col>
         </Row>
       </div>
-    </div>
+
+    </Container>
+
   );
 }

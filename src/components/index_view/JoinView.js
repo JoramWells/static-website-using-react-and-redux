@@ -16,7 +16,7 @@ export default function JoinView() {
       <Container fluid>
         <h1>Join Us</h1>
 
-        <Col className="divCenter" xs={8}>
+        <Col className="divCenter" md={8}>
           <hr />
           <p style={{ color: "white" }}>
             We started out because of a lot of problems that were facing the
@@ -29,7 +29,7 @@ export default function JoinView() {
           </p>
         </Col>
 
-        <Col xs={8} className="divCenter">
+        <Col md={10} className="divCenter">
         <ReactPlayer
             width="auto"
             className="ml-auto mr-auto "

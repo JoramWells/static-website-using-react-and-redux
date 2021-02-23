@@ -12,7 +12,6 @@ export default function AchievmentView() {
       <h1>Achievements</h1>
       <Container><hr /></Container>
       <Row>
-        <Col xs={2}></Col>
         <Col>
         <ol>
             <li>
@@ -25,7 +24,6 @@ export default function AchievmentView() {
             <li>Resolved Civil cases through ADR mechanisms</li>
           </ol>
         </Col>
-        <Col xs={2}></Col>
 
       </Row>
 

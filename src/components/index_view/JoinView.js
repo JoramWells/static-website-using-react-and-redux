@@ -1,13 +1,13 @@
 import React from "react";
-import Container from "react-bootstrap/esm/Container";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
 import ReactPlayer from "react-player/youtube";
-import "./css/index.css";
 
 export default function JoinView() {
   return (
     <div
       style={{
-        paddingTop: "50px",
+        paddingTop: "30px",
         paddingBottom: "50px",
         backgroundColor: "hsl(163, 59%, 55%, 1)",
       }}
@@ -16,9 +16,8 @@ export default function JoinView() {
       <Container fluid>
         <h1>Join Us</h1>
 
-        <div className="col-sm-10 mr-auto ml-auto">
+        <Col className="divCenter" xs={8}>
           <hr />
-
           <p style={{ color: "white" }}>
             We started out because of a lot of problems that were facing the
             community. Some include access to basic needs; food water and
@@ -28,15 +27,15 @@ export default function JoinView() {
             You can join us by sending a message to our email address{" "}
             <a href="#join">learn more</a>
           </p>
-        </div>
+        </Col>
 
-        <div className="col-sm-8 mr-auto ml-auto">
-          <ReactPlayer
+        <Col xs={8} className="divCenter">
+        <ReactPlayer
             width="auto"
             className="ml-auto mr-auto "
             url="https://www.youtube.com/watch?v=QbNEIQvgIdg"
           />
-        </div>
+        </Col>
       </Container>
     </div>
   );

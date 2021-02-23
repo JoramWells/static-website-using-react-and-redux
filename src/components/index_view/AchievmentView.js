@@ -7,12 +7,11 @@ import Row from "react-bootstrap/Row";
 
 export default function AchievmentView() {
   return (
-    <Container fluid>
-          <div style={{ padding: "5px" }} className=" mt-4">
+    <Container fluid className="mt-5">
       <h1>Achievements</h1>
       <Container><hr /></Container>
       <Row>
-        <Col>
+        <Col className="divCenter" xs={8}>
         <ol>
             <li>
               Successfully conducted social audit exercise for CDF funds in
@@ -27,14 +26,13 @@ export default function AchievmentView() {
 
       </Row>
 
-      <div className="col-sm-8 divCenter">
+      <Col className="col-sm-8 divCenter">
         <ReactPlayer
           width ="auto"
           className="ml-auto mr-auto"
           url="https://www.youtube.com/watch?v=QbNEIQvgIdg"
         />
-      </div>
-    </div>
+      </Col>
     </Container>
 
   );

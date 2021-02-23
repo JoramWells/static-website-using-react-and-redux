@@ -9,7 +9,7 @@ import Row from "react-bootstrap/Row";
 export default function TrendingViews() {
   return (
     <div className="col-sm-10 mt-5 mb-5 mr-auto mx-auto">
-      <h1 style={{ textAlign: "center", color: "#00284d" }}>Trending</h1>
+      <h1>Trending</h1>
       <div className="section ">
         <hr />
         <p>

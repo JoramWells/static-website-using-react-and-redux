@@ -1,18 +1,23 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
-import hiv from './hiv.jpg'
-import covid from './covid.png'
-import justice3 from './justice3.jpg'
-import women from './women.jpg'
+import download from './img/download.png'
+import Button from 'react-bootstrap/Button'
+import Card from 'react-bootstrap/Card'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import giphy from './img/giphy.gif'
+import Form from 'react-bootstrap/Form'
 
 
 export default function DonateView() {
     return (
         <Container fluid>
         <div className="mt-4 mb-5">
-          <h2 style={{ textAlign: "center", color:"#00284d" }}>Donate</h2>
+          
+          <h1 style={{ textAlign: "center", color:"#00284d" }}>Donate</h1>
           <div className="col-sm-10 mr-auto ml-auto">
             <hr />
+
             <p>
               Community support has been our main source of income. County
               government and Local government too. We urge and encourage people
@@ -33,6 +38,29 @@ export default function DonateView() {
                aria-describedby="basic-addon1" />
             </InputGroup>
             </div> */}
+            <Row>
+              <Col>
+              <img src={download} alt="download image" />
+              </Col>
+              <Col xs={4}>
+              <img  className="mt-5" src={giphy} alt="image giphy" style={{width:"200px", transform:"rotate(-180deg)"}} />
+              </Col>
+              <Col>
+              <Card>
+                  <Card.Body>
+                    <Form>
+                      <Form.Label>Email address</Form.Label>
+                      <Form.Control placeholder="jorammanoah1@gmail.com" type="email" />
+                      <Form.Text className="text-muted" >Will never share your email with someone eles</Form.Text>
+                      <Button variant="primary" >SUBMIT</Button>
+                    </Form>
+                  </Card.Body>
+                </Card>
+
+              </Col>
+            </Row>
+
+
 
 
           </div>
@@ -44,34 +72,7 @@ export default function DonateView() {
           <div className="contribution">Community</div>
         </div> */}
 
-        <div className="col-sm-10 mt-5 mb-5 mr-auto mx-auto">
-        <h2 style={{ textAlign: "center", color:"#00284d" }}>Trending</h2>
-        <div className="section " >
-        <hr />
-        <p>The Covid-19 pandamic has ensured decline in the economy.Creating awareness on the youth about importance of responsibility.
-          <br />
-          Access to justice and gender equality has been one among the very many problems facing our community.
-        </p>
-        <div className="row mt-4">
-          <div className="col-sm-3">
-          <img  src={hiv} alt="HIV image" style={{width:"200px"}} />
 
-          </div>
-          <div className="col-sm-3">
-          <img  src={covid} alt="Covid image" style={{width:"200px"}} />
-          </div>
-          <div className="col-sm-3">
-          <img  src={justice3} alt="Justice image" style={{width:"200px"}}/>
-
-          </div>
-          <div className="col-sm-3">
-          <img  src={women} alt="Justice image" style={{width:"200px"}}/>
-
-          </div>
-
-        </div>
-        </div>
-        </div>
 
 
       </Container>

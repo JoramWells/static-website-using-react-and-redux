@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactPlayer from 'react-player/youtube'
 
 export default function JoinView() {
     return (
@@ -9,9 +10,10 @@ export default function JoinView() {
           style={{ width: "250px", margin: "auto", display: "block" }}
         /> */}
 
-        <h2 style={{ textAlign: "center", color:"#00284d" }}>Join Us</h2>
+        <h1 style={{ textAlign: "center", color:"#00284d" }}>Join Us</h1>
 
         <div className="col-sm-10 mr-auto ml-auto">
+          <hr />
 
           <p style={{color:"white"}} >
             We started out because of a lot of problems that were facing the
@@ -21,6 +23,10 @@ export default function JoinView() {
             <br />
             You can join us by sending a message to our email address <a href="#join">learn more</a>
           </p>
+          <ReactPlayer
+          className="ml-auto mr-auto"
+          url="https://www.youtube.com/watch?v=QbNEIQvgIdg"
+        />
         </div>
       </div>
     )

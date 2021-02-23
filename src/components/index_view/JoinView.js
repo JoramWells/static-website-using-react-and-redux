@@ -23,10 +23,14 @@ export default function JoinView() {
             <br />
             You can join us by sending a message to our email address <a href="#join">learn more</a>
           </p>
+          <div className="col-sm-8 mr-auto ml-auto">
           <ReactPlayer
+          width="auto"
           className="ml-auto mr-auto"
           url="https://www.youtube.com/watch?v=QbNEIQvgIdg"
         />
+          </div>
+
         </div>
       </div>
     )

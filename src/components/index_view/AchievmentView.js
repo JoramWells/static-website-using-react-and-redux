@@ -28,8 +28,9 @@ export default function AchievmentView() {
         <div className="col-sm-2"></div>
       </div>
 
-      <div style={{ margin: "auto", display: "block" }}>
+      <div style={{ margin: "auto", display: "block" }} className="col-sm-8">
         <ReactPlayer
+          width ="auto"
           className="ml-auto mr-auto"
           url="https://www.youtube.com/watch?v=QbNEIQvgIdg"
         />

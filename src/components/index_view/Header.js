@@ -43,7 +43,7 @@ export default function Header() {
               id="collasible-nav-dropdown"
               style={{ color: "white", fontSize: "1.2rem" }}
             >
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1 " > <Link to="/work">Governance $ Human Rights</Link> </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>

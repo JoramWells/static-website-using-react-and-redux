@@ -26,9 +26,20 @@ h1, h2{
 }
 
 .back{
+    height: "500px";
     background-image: url('../img/sunset.jpg');
     background-size: cover;
     background-position: center;
     
 }
+
+@media (max-width: 480px) { /* Specific to this particular image */
+    .back {
+      height: 360px;
+    }
+  }
+
+  .item:hover{
+      display: block;
+  }
 

@@ -5,10 +5,10 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
 
-export default function AchievmentView() {
+export default function AchievmentView(props) {
   return (
     <Container fluid className="mt-5">
-      <h1>Achievements</h1>
+      <h1>{props.title}</h1>
       <Container><hr /></Container>
       <Row>
         <Col className="divCenter" md={8}>

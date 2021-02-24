@@ -7,12 +7,16 @@ import JoinView from "./components/index_view/JoinView";
 import DonateView from "./components/index_view/DonateView";
 import TrendingViews from "./components/index_view/TrendingViews";
 
+const title = "Achievements"
+
+
+
 function App() {
   return (
     <>
     <Header />
-    <CarouselView />
-    <AchievmentView />
+    <CarouselView/>
+    <AchievmentView title={title} />
     <ActivitiesViews />
     <JoinView />
     <DonateView />

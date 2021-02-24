@@ -35,11 +35,8 @@ export default function Header() {
             <Nav.Link >
               <Link to="/"  style={{ color: "white", fontSize: "1.2rem" }}>HOME</Link>
             </Nav.Link>
-            <Nav.Link
-              href="/about"
-              style={{ color: "white", fontSize: "1.2rem" }}
-            >
-              ABOUT US
+            <Nav.Link>
+              <Link to="/about"  style={{ color: "white", fontSize: "1.2rem" }}>ABOUT US</Link>
             </Nav.Link>
             <NavDropdown
               title="WHERE WE WORK"

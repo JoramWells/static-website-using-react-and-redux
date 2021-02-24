@@ -1,9 +1,9 @@
 import React from 'react'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
-import prison2 from './img/prison2.jpg'
-import meeting5 from './img/meeting5.jpg'
-import Container from 'react-bootstrap/esm/Container'
+import prison2 from './img/prison2.webp'
+import meeting5 from './img/meeting5.webp'
+import Container from 'react-bootstrap/Container'
 
 export default function ActivitiesViews() {
     return (
@@ -16,7 +16,7 @@ export default function ActivitiesViews() {
           </p>
           <CardDeck>
             <Card style={{border:"none"}}>
-              <Card.Img variant="top" src={prison2}></Card.Img>
+              <Card.Img variant="top" src={prison2}  style={{transform:"rotateX(-180deg)"}}></Card.Img>
               <Card.Body>
                 <Card.Title>
                   Kitale Women's Prison

@@ -1,10 +1,9 @@
 import React from "react";
-import hiv from "./img/hiv.jpg";
-import covid from "./img/covid.png";
-import justice3 from "./img/justice3.jpg";
-import women from "./img/women.jpg";
+import hiv from "./img/hiv.webp";
+import covid from "./img/covid.webp";
+import justice3 from "./img/justice3.webp";
+import women from "./img/women.webp";
 import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import Media from 'react-bootstrap/Media'
 import Container from "react-bootstrap/Container";
 

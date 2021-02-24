@@ -43,14 +43,18 @@ export default function Header() {
               id="collasible-nav-dropdown"
               style={{ color: "white", fontSize: "1.2rem" }}
             >
-              <NavDropdown.Item href="#action/3.1 " > <Link to="/work">Governance $ Human Rights</Link> </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+              <NavDropdown.Item > <Link to="/work">Governance $ Human Rights</Link> </NavDropdown.Item>
+              <NavDropdown.Item >
+              <Link to="/work">Resource Mobilization</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item>
+              <Link to="/work">Access to Justice</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+              <Link to="/work">Women and Gender</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+              <Link to="/work">Peace Building</Link>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link

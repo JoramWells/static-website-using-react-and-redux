@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 export default function Work() {
   return (
     <div style={{ backgroundColor: "hsl(180, 20%, 95%, 1)" }}>
-      <div className="back" style={{height:"500px"}}></div>
+      <div className="back2" style={{height:"500px"}}></div>
       <Container className="py-4">
         <Col>
           <h2>Governance & Human Rights</h2>

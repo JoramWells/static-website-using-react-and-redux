@@ -1,6 +1,6 @@
 import React from 'react'
-import jpc from './img/jpc.jpg'
-import meeting1 from './img/meeting1.jpg'
+import jpc from './img/jpc.webp'
+import meeting1 from './img/meeting1.webp'
 import Carousel from 'react-bootstrap/Carousel'
 
 

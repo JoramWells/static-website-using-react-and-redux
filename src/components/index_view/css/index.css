@@ -27,7 +27,15 @@ h1, h2{
 
 .back{
     height: "500px";
-    background-image: url('../img/sunset.jpg');
+    background-image: url('../img/sunset.webp');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.back2{
+    height: "500px";
+    background-image: url('../img/chil8d.webp');
     background-size: cover;
     background-position: center;
     

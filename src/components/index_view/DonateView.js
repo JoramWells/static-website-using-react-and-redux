@@ -5,7 +5,6 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import giphy from "./img/giphy.gif";
 import Form from "react-bootstrap/Form";
 
 export default function DonateView() {

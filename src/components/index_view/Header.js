@@ -12,13 +12,13 @@ export default function Header (){
 
       <>
       <div style={{ width:"100%", backgroundColor:"white", top:"0", padding:".3rem"}}>
-        <h2 className="text-center">JUSTICE & PEACE CENTER</h2>
+        <h3 className="text-center">JUSTICE & PEACE CENTER</h3>
         
       </div>
 
       <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" style={{backgroundColor: "hsla(163, 59%, 40%, 1)", color:"white"}}>
   <Navbar.Brand href="#home">
-  <img src={logo} alt="jpc-logo" style={{height:"70px", width:"70px", borderRadius:"5px"}} />
+  <img src={logo} alt="jpc-logo" style={{height:"60px", width:"60px", borderRadius:"5px"}} />
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

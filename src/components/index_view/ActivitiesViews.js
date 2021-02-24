@@ -11,7 +11,7 @@ export default function ActivitiesViews() {
           <h1 style={{ textAlign: "center", color:"#00284d" }}>Recent Activities</h1>
 
           <hr />
-          <p className="mb-4 mt-4">Every work that we do is backed with the theme of our mission statement. Our thematic concern and how much we are budgeting.
+          <p className="mb-4 mt-2">Every work that we do is backed with the theme of our mission statement. Our thematic concern and how much we are budgeting.
             The involvement of second parties. Separate concerns and how much our team works to ensure that we have fulfilled everything on time.
           </p>
           <CardDeck>

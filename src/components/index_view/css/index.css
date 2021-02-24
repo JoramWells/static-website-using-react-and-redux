@@ -7,10 +7,11 @@ p, ol{
         display:"none"
     }
 }
-h1{
+h1, h2{
     color: #00284d;
     text-align: center;
 }
+
 
 
 .divCenter{
@@ -22,4 +23,9 @@ h1{
     padding-top: "50px";
     padding-bottom: "50px";
     background-color: "hsl(163, 59%, 55%, 1)";
+}
+
+.back{
+    background-image: url('../img/sunset.jpg');
+    background-size: cover;
 }

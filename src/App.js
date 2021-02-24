@@ -1,26 +1,21 @@
 import Footer from "./components/index_view/Footer";
 import Header from "./components/index_view/Header";
-import CarouselView from "./components/index_view/CarouselView";
-import AchievmentView from "./components/index_view/AchievmentView";
-import ActivitiesViews from "./components/index_view/ActivitiesViews";
-import JoinView from "./components/index_view/JoinView";
-import DonateView from "./components/index_view/DonateView";
-import TrendingViews from "./components/index_view/TrendingViews";
-
-const title = "Achievements"
+import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
+import About from './components/pages/About'
+import IndexRoute from './IndexRoute'
 
 
 
 function App() {
   return (
     <>
-    <Header />
-    <CarouselView/>
-    <AchievmentView title={title} />
-    <ActivitiesViews />
-    <JoinView />
-    <DonateView />
-    <TrendingViews />
+        <Header />
+    <Router>
+      <Route path="/" exact component={IndexRoute} />
+      <Route path="/about" component={About} />
+      
+    </Router>
+
     <Footer />
 
     </>

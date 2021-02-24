@@ -4,17 +4,17 @@ import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import './index.css'
 import logo from './img/logo.png'
-
+import {Link} from 'react-router-dom';
 
 
 export default function Header (){
     return(
 
       <>
-      <div style={{ width:"100%", backgroundColor:"white", top:"0", padding:".3rem"}}>
+      {/* <div style={{ width:"100%", backgroundColor:"white", top:"0", padding:".3rem"}}>
         <h3 className="text-center">JUSTICE & PEACE CENTER</h3>
         
-      </div>
+      </div> */}
 
       <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" style={{backgroundColor: "hsla(163, 59%, 40%, 1)", color:"white"}}>
   <Navbar.Brand href="#home">
@@ -26,8 +26,8 @@ export default function Header (){
 
     </Nav>
     <Nav>
-      <Nav.Link href="#home"  style={{color:"white", fontSize:"1.2rem"}}>HOME</Nav.Link>
-      <Nav.Link href="#about"  style={{color:"white", fontSize:"1.2rem"}}>ABOUT US</Nav.Link>
+      <Nav.Link href="/"  style={{color:"white", fontSize:"1.2rem"}}>HOME</Nav.Link>
+      <Nav.Link href="/about"  style={{color:"white", fontSize:"1.2rem"}}>ABOUT US</Nav.Link>
       <NavDropdown title="WHERE WE WORK" id="collasible-nav-dropdown" style={{color:"white", fontSize:"1.2rem"}}>
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

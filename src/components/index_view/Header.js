@@ -18,7 +18,7 @@ export default function Header (){
 
       <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" style={{backgroundColor: "hsla(163, 59%, 40%, 1)", color:"white"}}>
   <Navbar.Brand href="#home">
-  <Nav.Link href="#features" style={{color:"white", fontSize:"1.5rem"}} >JUSTICE & PEACE CENTER</Nav.Link>
+  <Nav.Link href="#features" style={{color:"white", fontSize:"1.5rem"}} > <b>JUSTICE | PEACE</b> </Nav.Link>
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

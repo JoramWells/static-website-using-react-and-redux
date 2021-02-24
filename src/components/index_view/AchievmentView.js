@@ -11,7 +11,7 @@ export default function AchievmentView(props) {
       <h1>{props.title}</h1>
       <Container><hr /></Container>
       <Row>
-        <Col className="divCenter" md={8}>
+        <Col className="divCenter" md={10}>
         <ol>
             <li>
               Successfully conducted social audit exercise for CDF funds in
